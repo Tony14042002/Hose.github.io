@@ -79,7 +79,7 @@
     padding-bottom: 20px;
   }
 }
-@media (max-width: 860px) {
+@media (max-width: 680px) {
   .me {
     display: flex;
     flex-direction: column;
