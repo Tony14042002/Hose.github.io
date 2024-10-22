@@ -50,7 +50,7 @@
 .picz:hover {
   transform: scale(1.05);
 }
-@media (max-width: 720px) {
+@media (max-width: 1612px) {
   .code-pics {
     display: grid;
     grid-template-columns: 1fr ;
