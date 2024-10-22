@@ -1,0 +1,136 @@
+.gradient-background {
+  height: 700px;
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 150% 150%;
+  animation: gradient-animation 18s ease infinite;
+  display: flex;
+  justify-content: space-around;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.dog-logo {
+  padding-top: 15px;
+}
+.tink {
+  font-weight: 950;
+}
+.title {
+  align-self: center;
+  font-weight: 500;
+  font-size: 40px;
+  width: 600px;
+  padding-top: 100px;
+}
+.iphone {
+  align-self: self-end;
+  padding-right: 300px;
+}
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+.dog-img {
+  border-radius: 50%;
+}
+.testimonial {
+  font-weight: 900;
+  font-size: 30px;
+}
+.Pebbles {
+  font-size: 20px;
+  padding-left: 20px;
+}
+#tes {
+  background-color: rgb(241, 238, 238);
+  height: 550px;
+}
+.pic {
+  display: flex;
+  justify-content: space-around;
+  height: 30px;
+}
+.gb {
+  height: 450px;
+}
+.col:hover {
+  transform: scale(1.1);
+}
+.hv:hover {
+  transform: scale(1.1);
+}
+@media (max-width: 1328px) {
+  .iphone {
+    padding-right: 150px;
+  }
+}
+@media (max-width: 1060px) {
+  .iphone {
+    padding-right: 100px;
+  }
+}
+@media (max-width: 850px) {
+  .iphone {
+    padding-right: 85px;
+  }
+  .title {
+    align-self: self-end;
+    padding-right: 30px;
+  }
+}
+@media (max-width: 800px) {
+  .gradient-background {
+    flex-direction: column;
+    height: 1100px;
+  }
+  .dog-logo {
+    order: 1;
+  }
+  .iphone {
+    order: 2;
+    padding-right: 260px;
+  }
+  .title {
+    order: 3;
+    padding-left: 8px;
+    padding-top: 1px;
+  }
+  .pic {
+    height: 20px;
+  }
+  #tes {
+    height: 600px;
+  }
+}
+@media (max-width: 425px) {
+  .iphone {
+    padding-right: 85px;
+  }
+  .title {
+    font-size: 20px;
+    position: relative;
+    left: 200px;
+  }
+}
+@media (max-width: 576px) {
+  .iphone {
+    padding-right: 150px;
+  }
+  .title {
+    font-size: 20px;
+    position: relative;
+    left: 100px;
+    font-weight: 500;
+    font-size: 25px;
+  }
+}
