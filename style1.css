@@ -108,4 +108,7 @@
   .hose {
   padding-top: 700px;
 }
+  body {
+    background-color: #b86656;
+  }
 }
