@@ -48,27 +48,15 @@
   border: 5px solid #7a3d30;
 }
 .picz:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
-@media (max-width: 1612px) {
+@media (max-width: 1280px) {
   .code-pics {
     display: grid;
-    grid-template-columns: 1fr ;
+    grid-template-columns: 1fr 1fr;
     gap: 10px;
     justify-items: center;
   }
-  .me {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 40px;
-    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-    color: #b86656;
-  }
-  .best {
-    font-size: 20px;
-    color: #e08b7b;
-    padding-bottom: 20px;
 }
 @media (max-width: 960px) {
   .code-pics {
@@ -91,7 +79,7 @@
     padding-bottom: 20px;
   }
 }
-@media (max-width: 680px) {
+@media (max-width: 860px) {
   .me {
     display: flex;
     flex-direction: column;
@@ -105,10 +93,12 @@
     color: #e08b7b;
     padding-bottom: 20px;
   }
+  .side-bar {
+    width: 180px;
+    gap: 30px;
+  }
   .hose {
-  padding-top: 700px;
-}
-  body {
-    background-color: #b86656;
+    position: relative;
+    top: 540px;
   }
 }
